@@ -19,7 +19,8 @@
         "symfony/translation": "^3.4 || ^4.2 || ^5.0 || ^6.0 || ^7.0",
         "symfony/twig-bridge": "^3.4 || ^4.2 || ^5.0 || ^6.0 || ^7.0",
         "symfony/twig-bundle": "^3.4 || ^4.2 || ^5.0 || ^6.0 || ^7.0",
-        "twig/twig": "^2.6 || ^3.0"
+        "twig/twig": "^2.6 || ^3.0",
+        "require connectholland/cookie-consent-bundle": "dev-master",
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14",
@@ -40,5 +41,11 @@
     },
     "config": {
          "sort-packages": true
-    }
+    },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/sopwithpup/cookie-consent-bundle"
+        }
+    ],
 }
